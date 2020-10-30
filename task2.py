@@ -11,3 +11,11 @@
 # volume
 #
 # test output radius of 3 should give volume of 84.8230016469
+
+import math
+data = input("Please enter the radius")
+data = float(data)
+variable = data**3
+variable2 = variable*math.pi
+variable3 = variable2*4/3
+print(variable3)

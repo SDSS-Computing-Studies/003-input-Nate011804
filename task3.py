@@ -12,3 +12,13 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+a = input("input the furst number")
+a = float(a)
+b = input("input the second number")
+b = float(b)
+c = input("input the third number")
+c = float(c)
+x = c - b
+x = float(x)
+y = x / a
+print(y)

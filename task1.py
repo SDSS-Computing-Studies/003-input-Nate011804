@@ -3,9 +3,17 @@
 # (2 points)
 #
 # Inputs:
-# name
-# email
+# name 
+# email 
 #
 # Sample output:
 # Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.
 
+
+
+name = input("Please enter your name")
+
+email = input("Please enter your email address")
+
+print(name)
+print(email)
